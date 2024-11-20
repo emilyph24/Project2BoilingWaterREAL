@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+body {
+  background-color: #040273;
+  border: 5px solid #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+.banner {
+  padding: 5px;
+  letter-spacing: 25px;
+  font-size: 200%;
+  text-align: CENTER;
+  margin: auto;
+}
+
+.user-interface {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35% 20%;
+  gap: 10%;
+  justify-content: center;
+  padding: 5px;
+}
+
+#text-holder {
+  border: 3px solid white;
+  color: #ffffff;
+  font-size: 120%
+}
+
+#sketch-holder {
+}
+
+#more-info {
+  margin-top: 20px;
+  text-align: CENTER;
+  height: auto;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+   padding-left: 10%;
+  padding-right: 10%;
+}
+
+#button-holder {
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+}
